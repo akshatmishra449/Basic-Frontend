@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akshat Mishra | CSE Portfolio</title>
+    <style>
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        body {
+            background-color: #000000;
+            color: #FF8C00;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 650px;
+            width: 100%;
+            text-align: center;
+            animation: fadeIn 1s ease-out;
+            border: 1px solid #FF8C00;
+            padding: 40px;
+            border-radius: 15px;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            letter-spacing: 3px;
+            margin-bottom: 5px;
+        }
+
+        .subtitle {
+            font-weight: bold;
+            letter-spacing: 1px;
+            margin-bottom: 25px;
+            display: block;
+        }
+
+        .description {
+            color: #dddddd;
+            line-height: 1.8;
+            margin-bottom: 35px;
+            font-size: 1.1rem;
+        }
+
+        .section-title {
+            font-size: 0.8rem;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            border-bottom: 1px solid #333;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+            color: #FF8C00;
+        }
+
+        .link-grid {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            align-items: center;
+        }
+
+        .action-link {
+            text-decoration: none;
+            color: #000000;
+            background-color: #FF8C00;
+            padding: 12px 30px;
+            border-radius: 5px;
+            font-weight: bold;
+            width: 250px;
+            transition: all 0.3s ease;
+            display: block;
+        }
+
+        .action-link:hover {
+            background-color: #000000;
+            color: #FF8C00;
+            box-shadow: 0 0 15px #FF8C00;
+            transform: scale(1.05);
+            border: 1px solid #FF8C00;
+        }
+
+        .secondary-link {
+            text-decoration: none;
+            color: #FF8C00;
+            font-size: 0.9rem;
+            margin-top: 10px;
+            opacity: 0.8;
+        }
+
+        .secondary-link:hover {
+            opacity: 1;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>AKSHAT MISHRA</h1>
+        <span class="subtitle">B.Tech CSE Student</span>
+
+        <p class="description">
+            I am a Computer Science student passionate about building clean software and solving logical problems. 
+            Currently focused on mastering core programming concepts and developing efficient web applications.
+        </p>
+
+        <div class="section-title">Connect & Collaborate</div>
+
+        <div class="link-grid">
+            <a href="mailto:akshatmishra449@gmail.com" class="action-link">SEND AN EMAIL</a>
+            <a href="https://github.com/akshatmishra449" target="_blank" class="action-link">VIEW MY GITHUB</a>
+            <a href="https://www.linkedin.com/in/akshat-mishra-8a06a1317" target="_blank" class="secondary-link">Visit LinkedIn Profile</a>
+        </div>
+    </div>
+
+</body>
+</html>
